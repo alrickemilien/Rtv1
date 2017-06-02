@@ -8,7 +8,7 @@ plan:
 
 cylinder:
 	rayon: (0.5)
-	color: (0xF37E21)
+	color: (0xFF0000)
 	apex: (0.2 0.2 0)
 	axis: (0.5 -0.5 0)
 

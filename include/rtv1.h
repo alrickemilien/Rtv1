@@ -14,8 +14,14 @@
 # include <pthread.h>
 # include "vector.h"
 #include "parser.h"
-# define WIN_WIDTH 1000
-# define WIN_HEIGHT 1000
+# ifdef __APPLE__
+	# define WIN_WIDTH 1000
+	# define WIN_HEIGHT 1000
+#endif
+# ifdef __linux__
+	# define WIN_HEIGHT 600
+	# define WIN_WIDTH 600
+# endif
 # define WIN_WIDTH_HALF 500
 # define WIN_HEIGHT_HALF 500
 # define WIN_WIDTH_QUART 250

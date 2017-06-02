@@ -139,6 +139,21 @@
 # define KEY_OPEN_BRACKET	65432
 # define KEY_PAD_ADD        65453
 # define KEY_PAD_SUB        65451
+# define KEY_SPACEBAR       32
+# define KEY_COMMAND_LEFT   65507
+# define KEY_COMMAND_RIGHT   65507
+# define KEY_DOWN           65364
+# define KEY_UP				65362
+# define KEY_RIGHT			65363
+# define KEY_LEFT			65361
+# define KEY_A				97
+# define KEY_Q				113
+# define KEY_H				104
+# define KEY_T				116
+# define KEY_PAD_8			65431
+# define KEY_PAD_4			65430
+# define KEY_PAD_2			65433
+# define KEY_PAD_6			65432
 
 #endif
 
