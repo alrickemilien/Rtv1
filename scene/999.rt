@@ -1,0 +1,116 @@
+camera:
+	from: (0 0 0)
+	to: ( 10 10 10)
+
+camera:
+	from: (5 1 2)
+	to: (6 7.8 10)
+
+camera:
+	from: (8 6 -2.5)
+	to: (-6 -6 18)
+
+sphere:
+	position: (3 8 4.5)
+	color: (0x1eb246)
+	rayon: (2.1)
+	diffuse: (0.45)
+
+
+sphere:
+	rayon: (1.23)
+	position: (1 4 4.5)
+	color: (0xd2a20d)
+	specular: (0.35)
+
+cone:
+	apex: (1 9 4)
+	angle: (4)
+	axis: (0.7 -9 -5)
+	color: (0x00f47f07)
+	rotation: (10 30 0)
+
+light:
+	position: (0.2 0.2 0.2)
+	specular: (0.1)
+	diffuse: (0.9)
+
+plan:
+	normal: (0.5 0.5 0.3)
+	color: (0xF767BF)
+	position: (-6 -2 1)
+	specular: (0.7)
+	diffuse: (0.5)
+
+plan:
+	normal: (1 -0.2 6)
+	color: (0xF767BF)
+	position: (5 5 10)
+	specular: (0.7)
+
+plan:
+	normal: (1 10 0.4)
+	color: (0xF767BF)
+	position: (28.5 5 10)
+	specular: (0.7)
+
+plan:
+	normal: (-1 10 0.4)
+	color: (0xF767BF)
+	position: (28.5 9.6 10)
+	specular: (0.7)
+
+plan:
+	normal: (-1 10 0.4)
+	color: (0xF767BF)
+	position: (28.5 9.6 10)
+	specular: (0.7)
+
+cylinder:
+	rayon: (0.45)
+	color: (0x3FA9F5)
+	axis: (-0.1 -0.25 0.6)
+	apex: ( 6 6 7)
+
+sphere:
+	rayon: (1.33)
+	color: (0x17b287)
+	diffuse: (0.3)
+	specular: (0.55)
+	position: (5.5 8.5 8)
+
+light:
+	position: (2.3 4 3.3)
+	specular: (0.1)
+	diffuse: (0.9)
+	intensity: (3.2)
+
+plan:
+	normal: (-1 10 0.4)
+	color: (0xF767BF)
+	position: (28.5 9.6 10)
+	specular: (0.7)
+
+cylinder:
+	axis: (0.5 6 3.3)
+	apex: (3 4 6)
+	color: (0x10c537)
+	specular: (0.2)
+	rayon: (0.2)
+
+plan:
+	normal: (1 -0.5 -0.4)
+	color: (0xF767BF)
+	position: (0.9 3 4)
+	specular: (0.7)
+
+plan:
+	normal: (1 -0.5 0.4)
+	color: (0xF767BF)
+	position: (11 3 11)
+	specular: (0.4)
+
+sphere:
+	color: (0xb20101)
+	rayon: (1.75)
+	position: (10.5 7 9)

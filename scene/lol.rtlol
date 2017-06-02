@@ -1,0 +1,9 @@
+sphere:
+	position: (3 3 3)
+
+light:
+	position: (1 1 1)
+
+camera:
+	from: (1 1 1)
+	to: ( 3 3 3)

@@ -1,0 +1,17 @@
+camera:
+	from: (1 3 6)
+	to: (3 0 2)
+
+cone:
+	apex: (3 3 3)
+	color: (0xFF0000)
+	axis: (0 1 0)
+	angle: (30)
+
+light:
+	position: (3 3 3)
+	intensity: (5)
+
+plan:
+	position: (5 1 0)
+	normal: (0 1 0)
