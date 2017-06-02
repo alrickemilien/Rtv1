@@ -13,6 +13,7 @@
 #ifndef MACRO_KEY_MLX_H
 # define MACRO_KEY_MLX_H
 
+#ifdef __APPLE__
 # define KEY_ESC	         53
 # define KEY_F1             122
 # define KEY_F2             120
@@ -130,5 +131,15 @@
 # define KEY_PAD_ADD        69
 # define KEY_PAD_ENTER      76
 # define KEY_PAD_DOT        65
+#endif
+
+#ifdef __linux__
+# define KEY_ESC			65307
+# define KEY_CLOSE_BRACKET  65430
+# define KEY_OPEN_BRACKET	65432
+# define KEY_PAD_ADD        65453
+# define KEY_PAD_SUB        65451
+
+#endif
 
 #endif

@@ -63,9 +63,8 @@ int				red_cross(void *param)
 
 int				key_press(int keycode, t_env *env)
 {
-	t_list		*list;
-
-	list = env->list;
+	ft_putnbr(keycode);
+	ft_putendl("");
 	if (keycode == KEY_PAD_SUB || keycode == KEY_PAD_ADD)
 	{
 		if ((env->k > 0.1) && (keycode == KEY_PAD_SUB))
